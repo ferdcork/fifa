@@ -47,7 +47,7 @@ function getWins(team){
   }
   return count;
 }
-console.log(getWins("ZIL"));
+
 
 /* Takes the 2nd, 3rd, and 4th place teams from any world cup and gives the champion of that world cup.
 secPlace {string} - the second place team
@@ -67,7 +67,7 @@ function getChampion(secPlace, thirdPlace, fourthPlace){
   }
   return matches;
 }
-console.log(getChampion("Netherlands", "Germany", "Austria"));
+
 
 //get the number of participating teams by using the year datas.
 //'Year'is the string and 'matches' is the integer.
@@ -83,7 +83,7 @@ function getParticipations(year){
   }
   return matches;
 }
-console.log(getParticipations("1987.0"));
+
 
 //get the hosts of the world cups by using the year datas.
 //'year'is the string and 'matches'is the integer.
@@ -99,7 +99,7 @@ if(matches.length == 0){
 }
   return matches;
 }
-console.log(gethosts("1980.0"))
+
 
 
 /* takes a year that the world cup was played and gives the venue of the championship game for that year.
@@ -119,4 +119,3 @@ function getVenueOfChampionship(year){
   }
   return matches;
 }
-console.log(getVenueOfChampionship("2007.0"));
